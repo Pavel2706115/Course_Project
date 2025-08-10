@@ -56,6 +56,19 @@ class Transaction:
             'tags': self.tags
         }
     
+def print_transactions(transactions):
+    if not transactions:
+        print("No transactions found.")
+        return
+    for i, t in enumerate(transactions):
+        print(f"Transaction {i+1}:")
+        print(f"  Amount: {t['amount']}")
+        print(f"  Date: {t['date']}")
+        print(f"  Category: {t['category']}")
+        print(f"  Payment Method: {t['payment_method']}")
+        print(f"  Tags: {', '.join(t['tags']) if t['tags'] else 'None'}")
+        print("-" * 30)
+
 #Example usage:
 if __name__ == "__main__":
     manager = TransactionManager()
@@ -65,7 +78,7 @@ if __name__ == "__main__":
     manager.add_transaction(transaction.to_dict())
     
     # Viewing transactions
-    print(manager.view_transactions())
+    print_transactions(manager.view_transactions())
     
     # Editing a transaction
     updated_transaction = Transaction(120.0, '2023-10-01', 'Food', 'Credit Card', ['groceries', 'snacks'])
@@ -75,4 +88,5 @@ if __name__ == "__main__":
     manager.delete_transaction(0)
     
     # Viewing transactions after deletion
-    print(manager.view_transactions())
+    print_transactions(manager.view_transactions())
+# ...existing code...

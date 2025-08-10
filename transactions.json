@@ -1,1 +1,67 @@
-[]
+[
+    {
+        "amount": 15.0,
+        "date": "2023-09-18",
+        "category": "Transport",
+        "payment_method": "Cash",
+        "tags": [
+            "bus",
+            "commute"
+        ]
+    },
+    {
+        "amount": 80.0,
+        "date": "2023-09-20",
+        "category": "Utilities",
+        "payment_method": "Credit Card",
+        "tags": [
+            "electricity",
+            "monthly"
+        ]
+    },
+    {
+        "amount": 100.0,
+        "date": "2023-10-01",
+        "category": "Food",
+        "payment_method": "Credit Card",
+        "tags": [
+            "groceries"
+        ]
+    },
+    {
+        "amount": 100.0,
+        "date": "2023-10-01",
+        "category": "Food",
+        "payment_method": "Credit Card",
+        "tags": [
+            "groceries"
+        ]
+    },
+    {
+        "amount": 100.0,
+        "date": "2023-10-01",
+        "category": "Food",
+        "payment_method": "Credit Card",
+        "tags": [
+            "groceries"
+        ]
+    },
+    {
+        "amount": 500.0,
+        "date": "2015-06-21",
+        "category": "Charity",
+        "payment_method": "Card",
+        "tags": [
+            "helping others"
+        ]
+    },
+    {
+        "amount": 500.0,
+        "date": "2008-09-21",
+        "category": "Shoppings",
+        "payment_method": "Card",
+        "tags": [
+            "monthly spending"
+        ]
+    }
+]
