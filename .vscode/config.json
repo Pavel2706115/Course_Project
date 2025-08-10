@@ -1,0 +1,90 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "python.pythonPath": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "python.autoComplete.extraPaths": [
+            "C:\\Users\\User\\OneDrive\\PYTHON PROGRAMBG\\Course_Project"
+        ],
+        "python.analysis.extraPaths": [
+            "C:\\Users\\User\\OneDrive\\PYTHON PROGRAMBG\\Course_Project"
+        ]
+    },
+    "launch": {
+        "configurations": [
+            {
+                "name": "Python: Current File",
+                "type": "python",
+                "request": "launch",
+                "program": "${file}",
+                "console": "integratedTerminal"
+            }
+        ],
+        "version": "0.2.0"
+    },
+    "tasks": {
+        "version": "2.0.0",
+        "tasks": [
+            {
+                "label": "Run Python File",
+                "type": "shell",
+                "command": "python",
+                "args": [
+                    "${file}"
+                ],
+                "group": {
+                    "kind": "test",
+                    "isDefault": true
+                },
+                "problemMatcher": [
+                    "$python"
+                ]
+            }
+        ]
+    },
+    "git.ignoreLimitWarning": true,
+    "git.autorefresh": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "git.enableCommitSigning": false,
+    "git.defaultCloneDirectory": "C:\\Users\\User\\OneDrive\\PYTHON PROGRAMBG\\Course_Project",
+    "git.enableStash": true,
+    "git.enableStatusBar": true,
+    "gitlens.currentLine.enabled": true,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.hovers.currentLine.enabled": true,
+    "gitlens.hovers.currentLine.location": "inline",
+    "gitlens.hovers.currentLine.showAvatar": true,
+    "gitlens.hovers.currentLine.showAuthor": true,
+    "gitlens.hovers.currentLine.showDate": true,
+    "gitlens.hovers.currentLine.showMessage": true,
+    "gitlens.hovers.currentLine.showRepo": true,
+    "gitlens.hovers.currentLine.showStatus": true,
+    "gitlens.hovers.currentLine.showTags": true,
+    "gitlens.hovers.currentLine.showType": true,
+    "gitlens.hovers.currentLine.showView": true,
+    "gitlens.hovers.currentLine.showWorkspace": true,
+    "gitlens.hovers.currentLine.showBranch": true,
+    "gitlens.hovers.currentLine.showCommit": true,
+    "gitlens.hovers.currentLine.showCommitMessage": true,
+    "gitlens.hovers.currentLine.showCommitHash": true,
+    "gitlens.hovers.currentLine.showCommitAuthor": true,
+    "gitlens.hovers.currentLine.showCommitDate": true,
+    "gitlens.hovers.currentLine.showCommitRepo": true,
+    "gitlens.hovers.currentLine.showCommitStatus": true,
+    "gitlens.hovers.currentLine.showCommitTags": true,
+    "gitlens.hovers.currentLine.showCommitType": true,
+    "gitlens.hovers.currentLine.showCommitView": true,
+    "gitlens.hovers.currentLine.showCommitWorkspace": true,
+    "gitlens.hovers.currentLine.showCommitBranch": true,
+    "gitlens.hovers.currentLine.showCommitMessagePreview": true,
+    "gitlens.hovers.currentLine.showCommitMessagePreviewLines": 3,
+    "gitlens.hovers.currentLine.showCommitMessagePreviewTruncate": true,
+    "gitlens.hovers.currentLine.showCommitMessagePreviewTruncateLines": 3,
+    "gitlens.hovers.currentLine.showCommitMessagePreviewTruncateWords": 10,
+    "gitlens.hovers.currentLine.showCommitMessagePreviewTruncateCharacters": 100
+}
+    
