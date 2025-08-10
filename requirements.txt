@@ -1,0 +1,19 @@
+#1. Data Storage and Handling
+    # Use appropriate data structures (dictionaries, lists, sets) to store financial information
+    # Implement file I/O for saving/loading the financial data (JSON or CSV format)
+    # Include exception handling for file operations and user input
+
+#2. Object-Oriented Design
+    # Hint: create Transaction and TransactionManager classes with appropriate attributes and methods
+
+#3. User Interface
+    # Build a command-line interface with a menu system
+    # Implement proper input validation and error messages
+    # Use string formatting to display information in a readable format
+
+#4. Code Organization
+    # Use virtual environment for your project
+    # Organize code into modules with appropriate functions and classes
+    # Create a package structure with proper imports
+    # Include docstrings and comments for code documentation
+    # Follow PEP 8 styling guidelines (use linters and formatters)
