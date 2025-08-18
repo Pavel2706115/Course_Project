@@ -1,15 +1,5 @@
 [
     {
-        "amount": 15.0,
-        "date": "2023-09-18",
-        "category": "Transport",
-        "payment_method": "Cash",
-        "tags": [
-            "bus",
-            "commute"
-        ]
-    },
-    {
         "amount": 80.0,
         "date": "2023-09-20",
         "category": "Utilities",
@@ -62,6 +52,34 @@
         "payment_method": "Card",
         "tags": [
             "monthly spending"
+        ]
+    },
+    {
+        "amount": 100.0,
+        "date": "2023-10-01",
+        "category": "Food",
+        "payment_method": "Credit Card",
+        "tags": [
+            "groceries"
+        ]
+    },
+    {
+        "amount": 3000.0,
+        "date": "2009-08-29",
+        "category": "Experience",
+        "payment_method": "Cash",
+        "tags": [
+            "Monthly Spending",
+            " Fun"
+        ]
+    },
+    {
+        "amount": 7000.0,
+        "date": "2012-11-16",
+        "category": "Groceries",
+        "payment_method": "Card",
+        "tags": [
+            "Expenses"
         ]
     }
 ]
