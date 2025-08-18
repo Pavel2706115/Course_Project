@@ -62,24 +62,5 @@
         "tags": [
             "groceries"
         ]
-    },
-    {
-        "amount": 3000.0,
-        "date": "2009-08-29",
-        "category": "Experience",
-        "payment_method": "Cash",
-        "tags": [
-            "Monthly Spending",
-            " Fun"
-        ]
-    },
-    {
-        "amount": 7000.0,
-        "date": "2012-11-16",
-        "category": "Groceries",
-        "payment_method": "Card",
-        "tags": [
-            "Expenses"
-        ]
     }
 ]
